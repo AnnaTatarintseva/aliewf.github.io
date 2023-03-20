@@ -1,0 +1,154 @@
+body {
+    background-color: #D1E8E4;
+}
+
+.first_line {
+    width: 100%;
+    transition: background-color 1.5s;
+}
+
+.first_line:hover {
+    background-color: #b3dad5;
+}
+
+.intro {
+    border-collapse: collapse;
+    text-align: center;
+    width: 100%
+}
+
+.archive {
+    width: 80%;
+    padding: 20px 200px;
+}
+
+
+.pfp_pic {
+    width: 10%;
+}
+
+.link {
+    color:rgb(26, 116, 126);
+    font-family:Ink Free;
+    font-weight: bold;
+
+}
+
+.pfp_info {
+    width: 100%;
+    text-align: center;
+}
+
+.page_pfp_pic {
+    width: 10%;
+}
+
+.skills_info {
+    width: 100%;
+    text-align: center;
+}
+
+.message_me {
+    text-align: center;
+    width: 100%;
+}
+
+.links_info {
+    text-align: center;
+    width: 100%;
+}
+
+.button {
+    display: inline-flex;
+    height: 35px;
+    width: 180px;
+    background: #A0C3D2;
+    border: none;
+    outline: none;
+    border-radius: 4px;
+    font-size: 18px;
+
+}
+
+.button:hower {
+    background: #7BB5D1;
+}
+
+.button:active {
+    background: #6faac7;
+}
+
+.button__text,
+.button__icon {
+    display: inline-flex;
+    align-items: center;
+    text-align: center;
+    padding: 5px 15px 10px 10px;
+    color: rgb(26, 116, 126);
+    font-family: Ink free;
+    font-weight: bold;
+
+}
+
+.button__icon {
+    font-size:1em;
+}
+
+.avatar {
+    font-size: 30px;
+    background-color: white;
+    height: 3em;
+    width: 3em;
+    border-radius: 50%;
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+
+}
+
+.avatar::after {
+    content: attr(data-label);
+    font-family: Ink Free;
+    color: rgb(26, 116, 126);
+}
+
+a:link {
+    text-decoration: none;
+}
+
+a:hower{
+    text-decoration: none;
+}
+
+hr {
+    width: 4%;
+    border-top: 7px dotted #c2d7d3;
+    border-bottom: none;
+    border-left: none;
+    border-right: none;
+}
+
+h2 {
+    color:rgb(26, 116, 126);
+    font-family: Ink Free;
+    font-size: 35px;
+}
+
+h1, h4 {
+    color:rgb(74, 150, 158);
+    font-family: Ink Free;
+}
+
+h1 {
+    font-size: 50px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+p {
+    font-size: 20px;
+    font-family: Bradley Hand ITC;
+    font-weight: bold;
+}
